@@ -33,15 +33,41 @@ $request_body = [
     'source' => "1",
     'product' => "hotel",
     'request' => [
+        'bookingDetails' => [
+            'fromDate' => "2022-12-20",
+            'toDate' => "2022-12-25",
+            'currency' => '520',
+            'rooms' => [
+                'room' =>[
+                'adultsCode' => '5',
+                'children' => [
+                    'child' => '2'
+                    ],
+                'rateBasis'=>'1331',
+                'passengerNationality' => '1',
+                'passengerCountryOfResidence' => '1',
+                'roomTypeSelected' => [
+                'selectedRateBasis' => '1',
+                'allocationDetails' => '1',
+            ],
+                ],
+            ],         
+            'productId' => '2',
+            'roomModified' => '2'
+        ],
     ],
 ];
 
     $xml = new SimpleXMLElement('<customer/>');
     array_to_xml($request_body,$xml);
-    $xml->request->addAttribute('command', 'getratebasisids');
+    $xml->request->addAttribute('command', 'getrooms');
+    $xml->request->bookingDetails->rooms->addAttribute('no', '1');
+    $xml->request->bookingDetails->rooms->room->addAttribute('runno', '2');
+    $xml->request->bookingDetails->rooms->room->children->addAttribute('no', '1');
+    $xml->request->bookingDetails->rooms->room->children->child->addAttribute('runno', '10');
     $result = $xml->asXML();
-//     echo $result;
-//     die;
+     echo $result;
+     die;
 $headers=[
     'Content-Type: text/xml',
     'connection: close',
