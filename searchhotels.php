@@ -10,10 +10,10 @@
 //getallcountries
 //getservingcities
 //getservingcountries
+
 function searchhotels(){
 header('Content-Type: text/xml');
 // function defination to convert array to xml
-
 $request_body = [
     'username' => 'iabholidays',
     'password' => '0f106d9bc00b3d593476794066fa3631',
@@ -67,7 +67,6 @@ $headers=[
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($curl, CURLOPT_POSTFIELDS, $result);
         curl_setopt($curl, CURLOPT_POST	, true);
-
         $response = curl_exec($curl);
         curl_close($curl);
         return $response;

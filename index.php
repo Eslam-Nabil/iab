@@ -2,9 +2,11 @@
 include './array_to_xml.php';
 include './getratebasis.php';
 include './searchhotels.php';
+include './getallcountries.php';
+$countries = getallcountries();
+print_r($countries);
+die;
 $result = searchhotels();
-// echo $result;
-
 $xml = new SimpleXMLElement($result);
 $hotels_xml = $xml->children();
 $hotels_json = json_encode($hotels_xml);
