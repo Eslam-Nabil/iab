@@ -10,7 +10,6 @@
 //getallcountries
 //getservingcities
 //getservingcountries
-
 function searchhotels(){
 header('Content-Type: text/xml');
 // function defination to convert array to xml
