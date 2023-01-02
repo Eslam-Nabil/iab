@@ -1,4 +1,3 @@
-<?php 
 Array
 (
     [0] => Array
@@ -54,7 +53,7 @@ Array
         (
             [@attributes] => Array
                 (
-                    [hotelid] => 631365
+                    [hotelid] => 872195
                 )
 
             [rooms] => Array
@@ -72,10 +71,10 @@ Array
                                 (
                                     [@attributes] => Array
                                         (
-                                            [roomtypecode] => 6163775
+                                            [roomtypecode] => 6013665
                                         )
 
-                                    [name] => AMBASSADOR SUITE
+                                    [name] => 3 BEDROOM APARTMENT
                                     [rateBases] => Array
                                         (
                                             [rateBasis] => Array
@@ -86,7 +85,7 @@ Array
                                                         )
 
                                                     [rateType] => 1
-                                                    [total] => 9316.9194
+                                                    [total] => 8942.3292
                                                 )
 
                                         )
@@ -103,7 +102,56 @@ Array
         (
             [@attributes] => Array
                 (
-                    [hotelid] => 922535
+                    [hotelid] => 922475
+                )
+
+            [rooms] => Array
+                (
+                    [room] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [adults] => 4
+                                    [children] => 0
+                                    [extrabeds] => 0
+                                )
+
+                            [roomType] => Array
+                                (
+                                    [@attributes] => Array
+                                        (
+                                            [roomtypecode] => 5712435
+                                        )
+
+                                    [name] => TWO BEDROOM APARTMENT
+                                    [rateBases] => Array
+                                        (
+                                            [rateBasis] => Array
+                                                (
+                                                    [@attributes] => Array
+                                                        (
+                                                            [id] => 1331
+                                                        )
+
+                                                    [rateType] => 1
+                                                    [total] => 8925.4028
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [@attributes] => Array
+                (
+                    [hotelid] => 924165
                 )
 
             [rooms] => Array
@@ -123,10 +171,10 @@ Array
                                         (
                                             [@attributes] => Array
                                                 (
-                                                    [roomtypecode] => 5713905
+                                                    [roomtypecode] => 5832325
                                                 )
 
-                                            [name] => THREE BEDROOM
+                                            [name] => TWO BEDROOM APARTMENT
                                             [rateBases] => Array
                                                 (
                                                     [rateBasis] => Array
@@ -137,7 +185,7 @@ Array
                                                                 )
 
                                                             [rateType] => 1
-                                                            [total] => 12555.0273
+                                                            [total] => 4927.8114
                                                         )
 
                                                 )
@@ -148,10 +196,10 @@ Array
                                         (
                                             [@attributes] => Array
                                                 (
-                                                    [roomtypecode] => 5713915
+                                                    [roomtypecode] => 123589015
                                                 )
 
-                                            [name] => TWO BEDROOM
+                                            [name] => Two-Bedroom Apartment
                                             [rateBases] => Array
                                                 (
                                                     [rateBasis] => Array
@@ -161,84 +209,10 @@ Array
                                                                     [id] => 1331
                                                                 )
 
-                                                            [rateType] => 1
-                                                            [total] => 9361.0755
+                                                            [rateType] => 3
+                                                            [total] => 6955.7111
                                                         )
 
-                                                )
-
-                                        )
-
-                                    [2] => Array
-                                        (
-                                            [@attributes] => Array
-                                                (
-                                                    [roomtypecode] => 6194695
-                                                )
-
-                                            [name] => FOUR BEDROOM
-                                            [rateBases] => Array
-                                                (
-                                                    [rateBasis] => Array
-                                                        (
-                                                            [@attributes] => Array
-                                                                (
-                                                                    [id] => 1331
-                                                                )
-
-                                                            [rateType] => 1
-                                                            [total] => 16661.5368
-                                                        )
-
-                                                )
-
-                                        )
-
-                                )
-
-                        )
-
-                )
-
-        )
-
-    [3] => Array
-        (
-            [@attributes] => Array
-                (
-                    [hotelid] => 45364
-                )
-
-            [rooms] => Array
-                (
-                    [room] => Array
-                        (
-                            [@attributes] => Array
-                                (
-                                    [adults] => 4
-                                    [children] => 0
-                                    [extrabeds] => 0
-                                )
-
-                            [roomType] => Array
-                                (
-                                    [@attributes] => Array
-                                        (
-                                            [roomtypecode] => 21631775
-                                        )
-
-                                    [name] => FAMILY ROOM
-                                    [rateBases] => Array
-                                        (
-                                            [rateBasis] => Array
-                                                (
-                                                    [@attributes] => Array
-                                                        (
-                                                            [id] => 1331
-                                                        )
-
-                                                    [rateType] => 1
-                                                    [total] => 5033.7859
                                                 )
 
                                         )
@@ -252,5 +226,3 @@ Array
         )
 
 )
-
-?>

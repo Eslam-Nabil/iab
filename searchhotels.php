@@ -22,8 +22,8 @@ $request_body = [
     'product' => "hotel",
     'request' => [
         'bookingDetails' => [
-            'fromDate' => "2023-01-29",
-            'toDate' => "2023-02-29",
+            'fromDate' => "2023-01-28",
+            'toDate' => "2023-01-29",
             'currency' => '520',
             'rooms' => [
                 'room' =>[
@@ -41,7 +41,7 @@ $request_body = [
            'filters'=>[
                'city'=>'364',
            ],
-           'resultsPerPage'=>4, 
+           'resultsPerPage'=>5, 
         ],
     ],
 ];
